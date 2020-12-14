@@ -22,6 +22,10 @@ int _tmain(int argc, _TCHAR* argv[])
 
 		// you write code to test for odd nunmber
 
+		while (num % 2 != 0){
+		num = rand() % 50 + 1;
+		}
+
 		cout << " " << num;
 
 		if (i % 10 == 0){
